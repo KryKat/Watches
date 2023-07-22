@@ -1,100 +1,67 @@
+@media screen and (max-width: 1400px) {
+    :root {
+        --font-size-main: 26px;
+    }
+    .main-container {
+        padding: 104px 130px 104px 130px;
+    }
+    .main__title {
+        font-size: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main-container {
+        padding: 104px 70px 104px 70px;
+    }
+}
 @media screen and (max-width: 992px) {
-  .container {
-    gap: 0;
-  }
-  p {
-    font-size: 32px;
-  }
-  .p1 {
-    font-size: 36px;
-    width: 740px;
-  }
-  .p2 {
-    width: 600px;
-  }
-  .p3 {
-    width: 570px;
-  }
-  .btn {
-    height: 100px;
-    font-size: 36px;
-  }
-  .but-not-btn {
-    width: 170px;
-  }
-  h2 {
-    font-size: 86px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  .desk {
-    font-size: 32px;
-    width: 700px;
-  }
+    :root {
+        --font-size-main: 32px;
+    }
+    .main-container {
+        padding: 104px 130px 0px 130px;
+    }
+    .main__title {
+        font-size: 250px;
+    }
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .main__img {
+        rotate: -90deg;
+    }
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --font-size-main: 26px;
+    }
+    .main-container {
+        padding: 50px 130px 50px 130px;
+        gap: 50px;
+    }
+    .main__title {
+        font-size: 200px;
+    }
+    .main__img {
+        rotate: 0deg;
+    }
 }
 @media screen and (max-width: 576px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .info {
-    justify-content: center;
-  }
-  .title {
-    font-size: 450px;
-    margin: 53px 0;
-  }
-  p {
-    font-size: 52px;
-  }
-  .p1 {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 100px;
-  }
-  .p2 {
-    width: 100%;
-    padding: 0 15%;
-  }
-  .btn {
-    height: 150px;
-    width: 400px;
-    font-size: 52px;
-    margin-bottom: 100px;
-  }
-  .but-not-btn {
-    width: 200px;
-  }
-  h2 {
-    font-size: 150px;
-  }
-  h3 {
-    font-size: 86px;
-  }
-  .desk {
-    font-size: 52px;
-    width: 100%;
-    padding: 0 15%;
-  }
-  img {
-    width: 750px;
-  }
-  .img {
-    width: 1075px;
-  }
-  .footer {
-    margin-bottom: 100px;
-  }
-  .son22 {
-    width: 1075px;
-    display: flex;
-    justify-content: center;
-  }
-  .mor705 {
-    display: flex;
-    position: static;
-    width: 600px;
-    justify-content: center;
-  }
+    .product-container {
+        padding: 0 30px 0 30px;
+    }
+    .main-container {
+        padding: 50px 30px 50px 30px;
+    }
+    .main__title {
+        font-size: 150px;
+    }
+    .main__btn {
+        padding: 20px 50px;
+    }
+    .main__price {
+        padding: 30px 20px;
+    }
 }
